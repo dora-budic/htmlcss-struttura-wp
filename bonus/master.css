@@ -83,9 +83,19 @@ body {
   font-weight: normal;
 }
 
+.third-container .column:nth-child(3) {
+  padding: 0 15px;
+}
+
+.third-container .column {
+  margin-bottom: 20px;
+}
+
+
 .third-container .left-column.image {
   background-image: url(img/img-1.jpg);
   background-position: center;
+  background-size: cover;
   border-radius: 10px;
   height: 250px;
 }
@@ -107,7 +117,7 @@ body {
 }
 
 .third-container .right-column.image {
-  background-image: url(img/img-3.jpg);
+  background-image: url(img/img-6.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
@@ -120,31 +130,4 @@ body {
 
 #heart {
   color: red;
-}
-/* .h-50 {
-  height: 50px;
-}
-
-.h-80 {
-  height: 80px;
-}
-
-.h-100 {
-  height: 100px;
-}
-
-.h-300 {
-  height: 300px;
-}
-
-.h-400 {
-  height: 400px;
-} */
-
-.third-container .column:nth-child(3) {
-  padding: 0 15px;
-}
-
-.third-container .column {
-  margin-bottom: 20px;
 }
