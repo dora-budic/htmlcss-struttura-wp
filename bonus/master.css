@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Dosis', sans-serif;
+  margin: 10px 0;
 }
 
 .row:after {
@@ -45,7 +46,7 @@ body {
 
 .logo {
   width: 150px;
-  margin: 10px 0 30px 0;
+  margin-bottom: 30px;
   padding-right: 20px;
   border-right: 1px solid lightgrey;
 }
@@ -111,6 +112,14 @@ body {
   background-size: cover;
   border-radius: 10px;
   height: 250px;
+}
+
+.fourth-container .column {
+  text-align: center;
+}
+
+#heart {
+  color: red;
 }
 /* .h-50 {
   height: 50px;
