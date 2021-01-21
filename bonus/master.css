@@ -63,14 +63,16 @@ body {
   border-radius: 10px;
 }
 
-.layover {
-  height: 430px;
+.overlay {
   border-radius: 10px;
   background-color: rgba(0,0,0,0.3);
 }
 
+.overlay.h-430 {
+  height: 430px;
+}
 
-.second-container .layover > .article-title {
+.second-container .overlay > .article-title {
   padding: 260px 0 0 50px;
   width: 530px;
   color: white;
@@ -79,6 +81,25 @@ body {
 .article-title > h1 {
   font-weight: normal;
 }
+
+.third-container .left-column > .image {
+  background-image: url(img/img-1.jpg);
+  border-radius: 10px;
+}
+
+.third-container .left-column > .image {
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+
+.overlay.h-300 {
+  height: 300px;
+}
+
+.left-column h2 {
+  margin: 5px 0;
+}
+
 
 /* .h-50 {
   height: 50px;
