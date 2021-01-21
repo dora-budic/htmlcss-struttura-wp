@@ -82,25 +82,36 @@ body {
   font-weight: normal;
 }
 
-.third-container .left-column > .image {
+.third-container .left-column.image {
   background-image: url(img/img-1.jpg);
+  background-position: center;
   border-radius: 10px;
+  height: 250px;
 }
 
-.third-container .left-column > .image {
-  background-color: rgba(0,0,0,0.3);
-  border-radius: 10px;
+.overlay.h-250 {
+  height: 250px;
 }
 
-.overlay.h-300 {
-  height: 300px;
-}
-
-.left-column h2 {
+.left-column h2, .middle-column h2, .right-column h2 {
   margin: 5px 0;
 }
 
+.third-container .middle-column.image {
+  background-image: url('img/banner-2.jpg');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
 
+.third-container .right-column.image {
+  background-image: url(img/img-3.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  height: 250px;
+}
 /* .h-50 {
   height: 50px;
 }
